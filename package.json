@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "./common",
+      "./repo-1"
+    ]
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "eslint": "^9.17.0"
+  }
+}
